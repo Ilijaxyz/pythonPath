@@ -15,8 +15,9 @@ def playGame(machine_choice):
   player_choice = input("Plase enter your choice: ").lower()
   
   if player_choice == machine_choice:
+      print(f"\nMachine played {machine_choice.upper()}")
       print("DRAW!")
-      endGame()
+      machine_choice = endGame()
 
   if player_choice not in choices:
         print("something went wrong")
