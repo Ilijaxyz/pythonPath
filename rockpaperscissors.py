@@ -52,9 +52,7 @@ def playGame(machine_choice):
             print("YOU WON!")
             endGame()
 
-
-if __name__ == "__main__":
-    choices = ["rock", "paper", "scissors"]
-    machine_choice = choice(["rock", "paper", "scissors"])
-    print("Welcome to ROCK, PAPER, SCISSORS VS the MACHINE!")
-    playGame(machine_choice)
+choices = ["rock", "paper", "scissors"]
+machine_choice = choice(["rock", "paper", "scissors"])
+print("Welcome to ROCK, PAPER, SCISSORS VS the MACHINE!")
+playGame(machine_choice)
