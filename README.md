@@ -1,2 +1,2 @@
 # startPython
-Let's Django
+Let's python
